@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/index.css" /> 
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header>
+    <div class="cointainer">
+      <div class="col-12 d-flex">
+        <div class="col-6 d-flex justify-content-start ">
+          <div class="text-center ms-5 mt-4"> <img
+            src="./assets/logo.png"
+            alt="img-css"
+            class="img-css"
+          /></div>
+        </div>
+        <div class="col-6 d-flex align-items-center">
+          <div class="col-4">
+            <h3 class="sin"><a href="./index.html">inicio</a></h3>
+          </div>
+          <div class="col-4">
+            <h3 class="sin"><a href="./informacion.html">html</a></h3>
+          </div>
+          <div class="col-4">
+            <h3 class="sin"><a href="./pagina3.html">css</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<main>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-11">
+                <h1 class =" text-black">ACERCA DE HTML ...</h1>
+            </div>
+    </div>
+    <section class="container section-1" id="111">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <h4 class =" text-black">¿QUE ES HTML?</h4>
+            <ul>
+                <li>Es un Lenguaje de marcado de hipertexto (Hyper Text Markup Language)</li>
+                <li> No se encarga del aspecto visual de la página</li>
+                <li>Es un lenguaje de estructura (no de programación)</li>
+                <li>Es la base de todas las páginas web</li>
+            </ul>
+            <h4>¿COMO CREO MI ARCHIVO?</h4>
+            <p>Primero debemos crear un archivo y llamarlo index.html, luego al presionar el signo "!", aparecera
+                la estructura del documento html y podremos empezar a codear nuestra pagina web.
+            </p>
+            <div class="row">
+                <div class="col-12 col-lg-">
+            <img src =./assets/imagen.png  class="img-thumbnail" alt="ejemplo"></img>    
+            </div>
+            <h4>ETIQUETAS</h4>
+            <ul>
+                <li>HEADER: sirve como una introduccion, alli podemos encontrar elementos del encabezado, logo,
+                    formulario de busqueda, nombre del autor, entre otros</li>
+                <li>BODY: tiene el contenido del documento html y solamente puede haber uno.</li>
+                <li>FOOTER: es el pie de pagina, puede tener informacion acerca
+                     del autor de la pagina asi como tambien los derechos del autor 
+                     o enlaces a documentos. </li>
+                <li>SECTION: funciona como un contenedor donde
+                     esta el contenido relacionado entre si, 
+                     sirve para crear un bloque que a su vez tiene mas bloques dentro</li>
+                <li>ARTICLE: funciona como un contenedor pero es independiente.
+                     En cualquier lugar del codigo en el que se encuentre va a tener sentido. </li>
+                <li> ASIDE: se usa para expresar contenido que no es parte del tema de la pagina, como anuncios</li>
+            </ul>
+            <h4>ATRIBUTOS</h4>
+            <p>Son valores adicionales que configuran a los elementos y ajustan su comportamiento.</p>
+            <ul>
+                <li>Class: se usa para darle estilos a nuestra página a través de CSS</li>
+                <li>ID: es un identificador que se utiliza para navegar a traves de anclas </li>
+                <li>Data:Nos permite guardar algún valor en la etiqueta HTML</li>
+                <li>Title: muestra una descripción del elemento al q pertenece</li>
+            </ul>
+            <h4>ENLACES</h4>
+            <p>Conectan una página con otras. Utilizan obligatoriamente estos atributos:</p>
+            <ul>
+                <li>Href: donde escribimos la dirección de la pagina que queremos.</li>
+                <li>Target:configura como queremos visualizar el sitio hacia donde nos dirigimos. Se establece con la etiqueta <a> que viene de ancla</li>
+            </ul>
+            <h4>LISTAS</h4>
+            <p>Sirve para ordenar y enumerar datos.</p>
+            <ul>
+                <li>ul -> unordered list: listas desordenadas</li>
+                <li>ol -> ordered list: listas ordenadas.</li>
+                <li>dl -> definition list: Se utilizan para hacer una lista de definiciones</li>
+            </ul>
+            <h4>TABLAS</h4>
+            <p>Antes se utilizaban para mostrar el contenido de una pagina web. Actualmente esto ya no se utiliza, ya que ahora se usa el CSS para el aspecto visual de la pagina.</p>
+            <h5>ESTRUCTURA DE UNA TABLA</h5>
+            <ul>
+                <li>table → etiqueta que encierra una tabla</li>
+                <li>tr → table row, etiqueta que sirve para construir una fila,
+                 la cantidad d celdas va a definir la cantidad d columna de la tabla.</li>
+                <li>td → table data, etiqueta q construye una celda</li>
+            </ul>
+            <h5>ATRIBUTOS DE UNA TABLA</h5>
+            <ul>
+                <li>rowspan: hace q la celda ocupe mas de una fila</li>
+                <li>colspan: hace q la celda ocupe mas de una columna.</li>
+                <li>colgroup: permite seleccionar una columna especifica</li>
+            </ul>
+            <h4>FORMULARIOS</h4>
+            <p> Nos permiten mostrar o ingresar información.</p>
+            <h5>ESTRUCTURA</h5>
+            <ul>
+                <li>Form → es la etiqueta q contiene nuestro formulario</li>
+                <li>Label → permite escribir el nombre del campo a rellenar.</li>
+                <li>input → permite qué el usuario ingrese información</li>
+                <li>button → crea un boton</li>
+            </ul>
+            <h4>CONTENIDO EMBEBIDO</h2>
+            <p>Es todo el contenido externo que pesa más en cuanto a tamaño y se añaden a un sitio web, como imágenes, videos, audios e iframes.</p>
+            </div>
+          </div>
+    </section>
+</main>
+<footer>
+  <div class="container footer">
+    <div class="col-12 d-flex">
+      <div class="col-6 d-flex align-items-center">
+        <div><p class="text-center">©Copyright-2022 Argentina. All Rights Reserved.</h1></div>
+      </div>
+      <div class="col-6">
+        <div class="text-center"> <img
+          src="./assets/logo.png"
+          alt="img-css"
+          class="img-css"
+        /></div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
